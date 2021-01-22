@@ -1,0 +1,29 @@
+/* HTML and Body Styles */
+
+html {
+   background-color: rgb(186, 136, 81);
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+}
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation a {
+   background-color: rgb(113, 86, 39);
+   font-family: Champagne, cursive;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+   margin-left:auto;
+   margin-right: auto;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(239, 220, 156);
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(71, 52, 29);
+}   
+

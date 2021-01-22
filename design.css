@@ -1,0 +1,171 @@
+html
+{
+	background-color: hsl(27, 72%, 72%);
+}
+
+body {
+   background-color: rgb(138, 97, 51);  
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+table 
+{
+    border-collapse: collapse;
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	table-layout: fixed;
+	text-align: justify;
+}
+
+th
+{
+    padding: 10px;
+}
+
+.tdClass
+{
+	border: 1px solid black;
+	display:table-cell;
+    width: 20%;
+	height: 25px;
+}
+
+.headerCol
+{
+	display:inline-block;
+	display:table-cell;
+	border: 1px solid black;
+	vertical-align: text-top;
+	white-space: pre-wrap;
+}
+.headerRow
+{
+	display: inline;
+	display: table-cell;
+	border: 1px solid black;
+	text-align: justify;
+}
+
+button
+{
+	width: 120px;
+	height: 30px;
+	font-size: 12px;
+}
+
+#tableHolder, bodySection{
+	clear: left;
+	width: 100vw;
+	max-width: 100%;
+	padding: 20px;
+}
+
+#tableHolder > table
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	
+}
+
+#buttons
+{
+	padding: 20px;
+	width: 50vw;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerRow
+{
+	width: auto;
+}
+.headerCol
+{
+	height: auto;
+}
+
+#info
+{
+	padding: 20px;
+	background-color: rgba(230, 200, 121, 0.72);
+}
+
+/* slider */
+
+.slideContainer
+{
+	width: 90%;
+	padding: 25px;
+}
+
+.slider 
+{
+	-webkit-appearence: none;
+	appearence: none;
+	width: 100%;
+	height: 25px;
+	background: #d3d3d3;
+	outline: none;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.slider:hover
+{
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb
+{
+	-webkit-appearence: none;
+	appearence: none;
+	width: 25px;
+	height: 25px;
+	background: #4CAf50;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb
+{
+	width: 25px;
+	height: 25px;
+	background: #d3d3d3;
+	cursor: pointer;
+}
+
+#display
+{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	text-align: center;
+}
+/*
+#startButton
+{
+	margin-left: 10%;
+}
+
+#ansButton
+{
+	margin-left: calc(50% - 52px);
+	position: absolute;
+}
+
+#resetButton
+{
+	margin-right: 10%;
+	float: right;
+}*/

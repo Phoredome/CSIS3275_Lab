@@ -1,0 +1,39 @@
+
+.bg 
+{
+	min-width: 100vw;
+	min-height: 100vh;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-image: url("mountain.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -300;
+	background-color: red;
+}
+
+#name
+{
+	clear: left;
+	position: relative;
+	top: 250px;
+	font-size: 2em;
+	font-family: Gotham, Helvetica, Ariel, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: rgba(18, 168, 123, 0.5)
+}
+
+#date
+{
+	position: relative;
+	top: 500px;
+	font-size: 2em;
+	font-family: Gotham, Helvetica, Ariel, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: rgba(18, 168, 123, 0.9)
+}

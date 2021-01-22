@@ -1,0 +1,178 @@
+h1
+{
+	clear: left;
+}
+/************************************************************************************/
+#contactInfo
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+form {
+	width: 80%;
+}
+
+#custInfo
+{
+	/*display: -webkit-flex;*/
+	/*display: flex;
+	/*-webkit-flex-flow: wrap;*/
+	/*flex-wrap: wrap;
+	margin: 7px 0px;
+	justify-content: space-between;*/
+	display: flex;
+	flex-wrap: wrap;
+	/*background-color: clear;*/
+}
+
+.formStyle
+{
+	/*-webkit-flex: 1 0 21%;*/
+	flex: 1 0 calc(100% / 3);
+	/*background-color: clear;*/
+	margin: 0 1%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px;
+	justify-content: space-between;
+
+}
+
+.formStyle > * 
+{
+	flex: 1 0 90%;
+	/*background-color: clear;*/
+}
+
+input[type=text]:focus 
+{
+  border: 3px solid #500;
+  width: 100%;
+}
+
+input[type=tel]:focus 
+{
+  border: 3px solid #250;
+  width: 100%;
+}
+
+input[type=email]:focus 
+{
+  border: 3px solid #750;
+  width: 100%;
+}
+
+#dfname
+{
+	order: 1
+}
+#dlname
+{
+	order: 2
+}
+#dmail
+{
+	order: 3
+}
+#dphone
+{
+	order: 4
+}
+#dstate
+{
+	order: 5
+}
+#dcity
+{
+	order: 6
+}
+#dstreet
+{
+	order: 7
+}
+#dzip
+{
+	order: 8
+}
+/*********************************************************************************************/
+
+#problemInfo
+{
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#probInfo
+{
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid 2px black;
+}
+
+.probStyle
+{
+	/*-webkit-flex: 1 0 21%;*/
+	flex: 1 0 calc(100% / 3);
+	/*background-color: clear;*/
+	margin: 0 1%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px;
+	justify-content: space-between;
+
+}
+
+.probOptions
+{
+	/*-webkit-flex: 1 0 21%;*/
+	flex: 1 0 calc(100% / 3);
+	/*background-color: clear;*/
+	margin: 0 1%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px;
+	justify-content: space-between;
+
+}
+
+.probOptions > * 
+{
+	flex: 1 0 50%;
+	/*background-color: clear;*/
+}
+/*****************************************************************************************/
+
+#descriptionInfo
+{
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#buttons
+{
+	padding: 10px;
+	width: 70%;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+#prevButton
+{
+	float: left;
+}
+#nextButton
+{
+	float: right;
+}
+#subButton
+{
+	float: right;
+	display: none;
+}
